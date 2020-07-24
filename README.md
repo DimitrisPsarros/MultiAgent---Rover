@@ -1,21 +1,10 @@
 
-# CM30174/50206
-
-Template project for Rover coursework (2019/20 session).
 
 
-
-__<a name="bugs"></a>NOTE: You are encouraged to use this repository's issues tab to report bugs and requests new features where necessary.__
-
+Template project for Rover coursework 
 
 
 ## What you need to get started 
-
-1. Install [Eclipse](https://wiki.eclipse.org/Eclipse/Installation).
-2. Install Jason [ V2.4](https://sourceforge.net/projects/jason/files/jason/version%202.4/jason-2.4.zip/download) & [Jason Eclipse plugin](http://jason.sourceforge.net/mini-tutorial/eclipse-plugin/).
-
-
-
 
 ## Contents
  - [The Environment](#env)
