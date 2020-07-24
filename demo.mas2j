@@ -1,0 +1,16 @@
+MAS sample_rover {
+
+	
+	infrastructure: Centralised
+	environment: rover.RoverWorld("mas2j_file=demo.mas2j", "scenario=0")
+	agents:
+		dummy_bot_2;
+		dummy_bot_3;
+	     multi_res;
+		//dummy_bot_2;
+	    //dummy_bot [capacity=3, scan_range=3, speed=3, mindinspector="gui(cycle,html,history)" ] #1;
+		
+	aslSourcePath:
+    "src/asl";
+	
+}

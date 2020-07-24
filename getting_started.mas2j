@@ -1,0 +1,19 @@
+MAS sample_rover {
+
+	
+	infrastructure: Centralised
+	
+	// setting up the environment
+	environment:	rover.RoverWorld("mas2j_file=getting_started.mas2j", "scenario=3")
+	
+	// configuring the agents
+	agents:
+		   dummy_bot     [capacity = 3, scan_range = 4, speed = 3, resource_type=Gold,          mindinspector="gui(cycle,html,history)"] #1;
+		   dummy_bot_1   [capacity = 3, scan_range = 4, speed = 1, resource_type=Diamond,       mindinspector="gui(cycle,html,history)"] #1;
+	       //dummy_bot_2   [capacity = 3, scan_range = 4, speed = 1, resource_type=Gold,       mindinspector="gui(cycle,html,history)"] #1;
+	       //dummy_bot_3   [capacity = 3, scan_range = 4, speed = 1, resource_type=Diamond,       mindinspector="gui(cycle,html,history)"] #1;
+	
+	// location of asl files relative to project root directory		
+	aslSourcePath:
+		"src/asl";
+}
